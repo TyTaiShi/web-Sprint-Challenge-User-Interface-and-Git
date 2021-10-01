@@ -78,6 +78,7 @@ p {
 header nav{
     width: 100%;
     display: flex;
+    flex-direction: row;
     justify-content:space-between;
     align-items: center;
     padding: 20px 2%;
@@ -91,6 +92,7 @@ header nav a {
 
 header nav .links{
     display: flex;
+    width: 95%;
     justify-content: space-evenly;
 }
 
@@ -502,16 +504,28 @@ footer nav a {
     background-color: #fff;
 }
 
+.bottom-content .text-containerEnd {
+    padding:2%;
+}
 
+.bottom-content .text-containerEnd h2{
+    width:35%;
+    justify-content: center;
+    text-align: justify;
+    text-justify: inter-word;
+}
 
+.bottom-content .text-containerEnd p{
+    width:85%;
+    justify-content: center;
+    text-align: justify;
+    text-justify: inter-word;
+}
 
-
-
-
-
-
-
-
+img{
+    background-image:url(img/jumbo.jpg);
+    object-fit: cover;
+}
 
 
 

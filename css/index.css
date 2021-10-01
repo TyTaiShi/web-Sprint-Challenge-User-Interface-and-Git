@@ -328,3 +328,195 @@ footer nav a {
     text-decoration: none;
 }
 
+
+
+.top-content .text-containerAbout{
+    width: 90%;
+    padding: 2.5% 1%;
+    padding-bottom: 20px;
+}
+
+.top-content .text-containerAbout p{
+    display: flex;
+    flex-wrap: wrap;
+    width:95%;
+    justify-content: center;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.middle-content .boxes .boxPlan{
+    width: 49%;
+}
+
+.middle-content .boxes .boxPlace{
+    width: 49%;
+}
+.middle-content .boxes .boxWork{
+    width: 49%;
+}
+.middle-content .boxes .boxMeeting{
+    width: 49%;
+}
+
+.middle-content .boxes .boxPlan .BPlI{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction:row;
+    padding: 1%
+    margin:2% 10%;
+}
+
+.middle-content .boxes .boxWork .BWI{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    flex-direction:row;
+    padding: 1%
+    margin: 2% 10%;
+}
+
+.middle-content .boxes .boxPlace .BPI{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction:row;
+    padding: 1%
+    margin: 2% 10%;
+ }
+    
+ .middle-content .boxes .boxMeeting .BMI{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    flex-direction:row;
+    padding: 1%
+    margin: 2% 10%;
+}
+
+    
+.middle-content .boxes .boxPlace h3{
+    flex-wrap: wrap;
+    text-align: left;
+    margin:1.5% 28%;
+}
+
+.middle-content .boxes .boxPlace p{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    width:50%;
+    margin:0 20%;
+}
+
+.middle-content .boxes .boxPlan h3{
+    flex-wrap: wrap;
+    text-align: left;
+    margin:1.5% 28%;
+}
+
+.middle-content .boxes .boxPlan p{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    width:50%;
+    margin:0 20%;
+}
+
+.middle-content .boxes .boxWork h3{
+    flex-wrap: wrap;
+    text-align: left;
+    margin:1.5% 25%;
+}
+
+.middle-content .boxes .boxWork p{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    width:50%;
+    margin:0 20%;
+}
+
+
+.middle-content .boxes .boxMeeting h3{
+    flex-wrap: wrap;
+    text-align: left;
+    margin:1.5% 25%;
+
+}
+.middle-content .boxes .boxMeeting p{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    width:50%;
+    margin:0 20%;
+}
+
+
+.middle-content .boxes .boxPlan button{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    width:17.5%;
+    margin:5% 20%;
+    padding:1.5%;
+    border-radius: 15px;
+    font-size: medium;
+    background-color:#fff;
+}
+
+.middle-content .boxes .boxWork button{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    width:17.5%;
+    margin:5% 20%;
+    padding:1.5%;
+    border-radius: 15px;
+    font-size: medium;
+    background-color:#fff;
+}
+.middle-content .boxes .boxPlace button{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    width:17.5%;
+    margin:5% 20%;
+    padding:1.5%;
+    border-radius: 15px;
+    font-size: medium;
+    background-color:#fff;
+}
+.middle-content .boxes .boxMeeting button{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    width:17.5%;
+    margin:5% 20%;
+    padding:1.5%;
+    border-radius: 15px;
+    font-size: medium;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*I understand why there is a container because the content isn't going from margin to margin -- but I didn't do that here, at first I simply forgot and then I liked how it was styled and it would take too long to go back and redo all the elements; so instead I made it look as similar as possible*/
+
+
+
